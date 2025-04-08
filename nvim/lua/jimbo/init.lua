@@ -1,3 +1,4 @@
+require("packer")
 require("jimbo.remap")
 require("mason").setup()
 

@@ -12,3 +12,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 eval "$(starship init zsh)"
+alias ge='gh copilot explain'
+alias gs='gh copilot suggest'

@@ -74,6 +74,17 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["CopilotChat.nvim"] = {
+    config = { "\27LJ\2\n\v\0\0\1\0\0\0\1K\0\1\0\0" },
+    loaded = true,
+    path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/CopilotChat.nvim",
+    url = "https://github.com/CopilotC-Nvim/CopilotChat.nvim"
+  },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["cyberdream.nvim"] = {
     loaded = true,
     path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
@@ -83,6 +94,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -103,10 +119,24 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["transparent.nvim"] = {
+    loaded = true,
+    path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/transparent.nvim",
+    url = "https://github.com/xiyaowong/transparent.nvim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/jimbo/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: CopilotChat.nvim
+time([[Config for CopilotChat.nvim]], true)
+try_loadstring("\27LJ\2\n\v\0\0\1\0\0\0\1K\0\1\0\0", "config", "CopilotChat.nvim")
+time([[Config for CopilotChat.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
